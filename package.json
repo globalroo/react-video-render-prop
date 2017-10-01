@@ -10,18 +10,13 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test --env=jsdom",
-		"testcov": "react-scripts test --env=jsdom --coverage",
+		"test": "react-scripts test --env=jsdom src/*test*",
+		"testcov": "react-scripts test --env=jsdom --coverage && codecov",
 		"eject": "react-scripts eject",
 		"package": "rimraf coverage && rimraf build && rimraf node_modules"
 	},
 	"devDependencies": {
+		"codecov": "2.3.0",
 		"react-test-renderer": "16.0.0"
-	},
-	"jest": {
-		"collectCoverageFrom": [
-			"src/App.js",
-			"src/Video.js"
-		]
 	}
 }

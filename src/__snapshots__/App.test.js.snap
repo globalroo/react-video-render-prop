@@ -23,15 +23,24 @@ exports[`App test App renders as expected 1`] = `
   >
     Testing render props with a video component.
   </p>
-</div>
-`;
-
-exports[`App test App renders playerStatsPanel component as expected 1`] = `
-<div>
   <div>
-     Current Time: 
-    0
-     
+    <video
+      controls={true}
+    />
+    <div>
+      <h3>
+         Now have access to parent's context 
+        Hello
+         
+        World
+         
+      </h3>
+      <div>
+         Current Time: 
+        0
+         
+      </div>
+    </div>
   </div>
 </div>
 `;
