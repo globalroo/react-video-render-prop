@@ -1,6 +1,6 @@
 {
 	"name": "react-video-render-prop",
-	"homepage" : "https://globalroo.github.io/react-video-render-prop/",
+	"homepage": "https://globalroo.github.io/react-video-render-prop/",
 	"version": "0.0.1",
 	"dependencies": {
 		"react": "^16.0.0",
@@ -14,13 +14,16 @@
 		"testcov": "react-scripts test --env=jsdom --coverage && codecov",
 		"eject": "react-scripts eject",
 		"package": "rimraf coverage && rimraf build && rimraf node_modules",
-		"prettier": "prettier --write src/*.js"
+		"prettier": "prettier --write src/*.js",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d build"
 	},
 	"devDependencies": {
 		"codecov": "2.3.0",
 		"eslint": "4.8.0",
 		"eslint-config-prettier": "2.6.0",
 		"eslint-plugin-prettier": "2.3.1",
+		"gh-pages": "1.0.0",
 		"prettier": "1.7.3",
 		"react-test-renderer": "16.0.0"
 	}

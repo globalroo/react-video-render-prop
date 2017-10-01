@@ -9,6 +9,12 @@ TL;DR: It's a slightly different way of getting child state visible in the paren
 The only slight issue I had was getting coverage on 'just' the unit, my usual workflow has me mocking subcomponents.
 The child component had to render in order to exercise the inline component in the parent's render function.
 
+## Brief description
+
+Super basic create react app project to see what the render props pattern is all about.
+
+Live demo: https://globalroo.github.io/react-video-render-prop/
+
 ```sh
 npm install yarn -g
 yarn
@@ -17,6 +23,3 @@ yarn testcov (coverage - generated to ./coverage)
 yarn start or
 yarn build (for a production version - generated to ./build)
 ```
-## Brief description
-
-Super basic create react app project to see what the render props pattern is all about.
