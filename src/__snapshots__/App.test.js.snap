@@ -29,11 +29,10 @@ exports[`App test App renders as expected 1`] = `
     />
     <div>
       <h3>
-         Now have access to parent's context 
+        Now have access to parent's context 
         Hello
          
         World
-         
       </h3>
       <div>
          Current Time: 
