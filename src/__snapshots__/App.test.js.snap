@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App test App renders as expected 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Render prop video player
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Testing render props with a video component.
+  </p>
+</div>
+`;
+
+exports[`App test App renders playerStatsPanel component as expected 1`] = `
+<div>
+  <div>
+     Current Time: 
+    0
+     
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+{
+	"name": "react-video-render-prop",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"react-scripts": "1.0.14"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"testcov": "react-scripts test --env=jsdom --coverage",
+		"eject": "react-scripts eject",
+		"package": "rimraf coverage && rimraf build && rimraf node_modules"
+	},
+	"devDependencies": {
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"collectCoverageFrom": [
+			"src/App.js",
+			"src/Video.js"
+		]
+	}
+}
