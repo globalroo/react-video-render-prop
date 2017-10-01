@@ -22,7 +22,7 @@ class App extends Component {
           renderProp={state => (
             <div>
               <h3>
-                Now have access to parent's context {hi} {this.test()}
+                Now have access to parent context {hi} {this.test()}
               </h3>
               <div> Current Time: {state.currentTime} </div>
             </div>
