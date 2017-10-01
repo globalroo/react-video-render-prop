@@ -1,0 +1,4 @@
+ignore:
+  - "docs"  # ignore built code
+  - "src/index.js" # ignore boilerplate CreateReactApp
+  - "src/registerServiceWorker.js"
